@@ -38,7 +38,6 @@ header>p{
     
 }
 nav{
-    list-style: none;
     padding: 0;
 }
 nav ul{
@@ -46,13 +45,12 @@ nav ul{
     grid-template-columns: 1fr;
     gap: 3px;
     list-style-type: none;
-    list-style-type: none;
 }
 nav li{
     border: 1px solid white;
     border-radius: 5px;
     margin: 5px;
-    text-align: center;
+    padding-left: 10%;
 }
 nav li a{
     font-weight: bold;
@@ -68,14 +66,12 @@ nav li:hover{
     color: white;
 }
 article{
-    max-width: 1000px;
-    width: 90%;
     text-align: justify;
     font-size: 10px;
     background-color: black;
 }
 article>h1{
-    margin: 10px;
+    padding-left: 20px;
     font-size: 15px;
 }
 .kep>img{
@@ -89,7 +85,6 @@ article>h1{
 article>li{
     list-style-type: square;
 }
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -107,13 +102,16 @@ tr:nth-child(2) {
 tr:nth-child(4) {
     background-color: #5c5c5c;
 }
+footer{
+    text-align: center;
+}
 
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 
     "h h"
-    "ar nav"
+    "ar n"
     "f f";
     gap: 10px;
 }
